@@ -4,7 +4,9 @@ Sistema de Gestão de HQs
 🚧 Em desenvolvimento 🚧
 
 ## Tecnologias Aplicadas
-- Java
+- HTML
+- CSS
+- JS
 - MySQL
 
 ## Time de Desenvolvedores
