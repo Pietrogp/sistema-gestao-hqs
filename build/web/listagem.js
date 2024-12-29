@@ -1,10 +1,8 @@
-const hqs = [];
+// Array local para armazenar HQs simulando um banco de dados
+const hqs = JSON.parse(localStorage.getItem('hqs')) || [];
 
-function adicionarHQ(titulo, autor, ano, numeracao) {
-    hqs.push({ titulo, autor, ano, numeracao });
-}
-
-function listarHQs() {
+// Função para listar HQs
+document.addEventListener('DOMContentLoaded', () => {
     const tbody = document.querySelector('tbody');
     tbody.innerHTML = '';
 
@@ -18,7 +16,4 @@ function listarHQs() {
         `;
         tbody.appendChild(tr);
     });
-}
-
-// Chame a função listarHQs quando a página carregar
-document.addEventListener('DOMContentLoaded', listarHQs);
+});

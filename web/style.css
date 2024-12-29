@@ -1,12 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -14,13 +13,13 @@ body {
 header {
     background: #ff6347;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 15px;
 }
 
 nav a {
     color: white;
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
 }
 
@@ -32,17 +31,13 @@ main {
     padding: 20px;
 }
 
-.intro {
-    text-align: center;
-}
-
 form {
-    max-width: 400px;
-    margin: 0 auto;
     background: white;
     padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 form label {
@@ -52,7 +47,7 @@ form label {
 
 form input {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -77,13 +72,9 @@ table {
     margin-top: 20px;
 }
 
-table, th, td {
-    border: 1px solid #ccc;
-}
-
 th, td {
     padding: 10px;
-    text-align: left;
+    border: 1px solid #ccc;
 }
 
 th {
@@ -93,10 +84,8 @@ th {
 
 footer {
     text-align: center;
-    padding: 10px;
     background: #333;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
 }

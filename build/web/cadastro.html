@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de HQ</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="JS/validacao.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="cadastro.js" defer></script>
 </head>
 <body>
     <header>
@@ -16,7 +16,7 @@
         </nav>
     </header>
     <main>
-        <form onsubmit="return cadastrarHQ()">
+        <form id="cadastroForm" onsubmit="return cadastrarHQ()">
             <label for="titulo">Título:</label>
             <input type="text" id="titulo" name="titulo" required>
             
